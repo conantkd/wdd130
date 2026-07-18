@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 header,
 main,
 footer {
@@ -55,20 +59,6 @@ h1 {
     color: #fff;
 }
 
-article {
-    position: absolute;
-    padding: 16px;
-}
-
-.hero article img {
-    float: right;
-    width: 125px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
 .hero {
     position: relative;
 }
@@ -77,4 +67,21 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+
+}
+
+article {
+    position: absolute;
+    color: var(--secondary-color);
+    top: 100px;
+    background-color: #e0f2f1;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
