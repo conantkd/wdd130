@@ -31,9 +31,6 @@ footer {
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-}
-
-header {
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 180px 1fr 1fr;
