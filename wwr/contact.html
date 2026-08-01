@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About us | Rapidos Antioquia | WDD 130</title>
+    <meta name="description"
+      content="Web Site of rafting company, Rapidos Antioquia with HQ in Medellin, that offers services in Colombia">
+    <meta name="author" content="Luis Chaves">
+    <link rel="stylesheet" href="./styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="A boat-logo of the company">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 hidden>Contact us</h1>
+        <section class="company">
+            <h2>
+                Rapidos Antioquia
+            </h2>
+            <p>
+                Highway Medellín-Bogotá Km 152 <br>
+                Rio Claro Canyon Sector, Puerto Triunfo, Antioquia 053050<br>
+                <a href="tel:+57 310 5550288">+57 310 555-0288</a><br>
+                <a href="mailto:info@rapidosantioquia.com">info@rapidosantioquia.com</a>
+            </p>
+        </section>
+        <section class="formulary">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17818.762682808556!2d-74.86042758860742!3d5.90073863214287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1785616679605!5m2!1ses!2sco"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder=" Name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder=" Email">
+                </div>
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <div>
+                        <input type="radio" id="general_inquiry" name="purpose" value="general"
+                          checked>
+                        <label for="general_inquiry">General Inquiry</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="reservation_question" name="purpose"
+                          value="reservation">
+                        <label for="reservation_question">Reservation Question</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="website_suggestion" name="purpose"
+                          value="suggestion">
+                        <label for="website_suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" id="newsletter" name="newsletter" checked>
+                    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                </div>
+                <div class="send">
+                    <button type="submit">Get in Touch!</button>
+                </div>
+            </form>
+
+        </section>
+        <section class="employees adventure">
+            <h2>We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/employee1.jpg"
+                  alt="Juan traveling with a backpack in summer forest trip travel lifestyle concept" />
+                <figcaption>Juan "The Leader"</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg"
+                  alt=" David Hiking, black man and portrait with peace sign for selfie, adventure memory and excited outdoor." />
+                <figcaption>David "The Rescuer"</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg"
+                  alt="A view of happy smiling Maria looking to camera near waterfall, female in bright yellow jacket" />
+                <figcaption>Maria "The adventurer"</figcaption>
+            </figure>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2026 Rafting Colombia | Luis Chaves
+        </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="32">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" width="32">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="32">
+            </a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
